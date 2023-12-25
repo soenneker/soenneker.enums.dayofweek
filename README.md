@@ -8,5 +8,5 @@
 ## Installation
 
 ```
-Install-Package Soenneker.Enums.DayOfWeek
+dotnet add package Soenneker.Enums.DayOfWeek
 ```
