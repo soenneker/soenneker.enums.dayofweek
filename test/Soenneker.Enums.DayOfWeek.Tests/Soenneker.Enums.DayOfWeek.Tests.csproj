@@ -21,7 +21,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\src\Soenneker.Enums.DayOfWeek.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Enums.DayOfWeek.csproj" />
     </ItemGroup>
 
 </Project>
