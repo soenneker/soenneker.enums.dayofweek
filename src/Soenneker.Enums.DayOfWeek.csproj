@@ -9,7 +9,7 @@
 
     <PropertyGroup>
         <Description>An enumerator for describing the day of the week (Mon, Tues, ..)</Description>
-        <Version Condition="'$(BUILD_VERSION)' == ''">2.1.0</Version>
+        <Version Condition="'$(BUILD_VERSION)' == ''">3.0.0</Version>
         <Version Condition="'$(BUILD_VERSION)' != ''">$(BUILD_VERSION)</Version>
         <AssemblyName>Soenneker.Enums.DayOfWeek</AssemblyName>
         <PackageId>Soenneker.Enums.DayOfWeek</PackageId>
