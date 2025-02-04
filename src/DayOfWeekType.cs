@@ -1,11 +1,11 @@
-﻿using Ardalis.SmartEnum;
+﻿using Soenneker.SmartEnum.Named;
 
 namespace Soenneker.Enums.DayOfWeek;
 
 /// <summary>
 /// An enumerator for describing the day of the week (Mon, Tues, ..)
 /// </summary>
-public sealed class DayOfWeekType : SmartEnum<DayOfWeekType>
+public sealed class DayOfWeekType : NamedSmartEnum<DayOfWeekType>
 {
     public static readonly DayOfWeekType Sunday = new(nameof(Sunday), 0);
     public static readonly DayOfWeekType Monday = new(nameof(Monday), 1);
