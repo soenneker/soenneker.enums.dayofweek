@@ -1,10 +1,12 @@
 ﻿using Intellenum;
+using Soenneker.Attributes.PublicOpenApiObject;
 
 namespace Soenneker.Enums.DayOfWeek;
 
 /// <summary>
 /// An enumerator for describing the day of the week (Mon, Tues, ..)
 /// </summary>
+[PublicOpenApiObject]
 [Intellenum<string>]
 public partial class DayOfWeekType
 {
