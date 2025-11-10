@@ -8,7 +8,7 @@ namespace Soenneker.Enums.DayOfWeek;
 /// </summary>
 [PublicOpenApiObject]
 [Intellenum<string>]
-public partial class DayOfWeekType
+public sealed partial class DayOfWeekType
 {
     public static readonly DayOfWeekType Sunday = new(nameof(Sunday));
     public static readonly DayOfWeekType Monday = new(nameof(Monday));
