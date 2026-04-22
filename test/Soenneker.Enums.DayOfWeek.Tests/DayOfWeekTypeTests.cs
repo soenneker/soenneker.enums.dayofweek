@@ -1,16 +1,15 @@
-using Soenneker.Tests.FixturedUnit;
-using Xunit;
+using Soenneker.Tests.HostedUnit;
 
 namespace Soenneker.Enums.DayOfWeek.Tests;
 
-[Collection("Collection")]
-public class DayOfWeekTypeTests : FixturedUnitTest
+[ClassDataSource<Host>(Shared = SharedType.PerTestSession)]
+public class DayOfWeekTypeTests : HostedUnitTest
 {
-    public DayOfWeekTypeTests(Fixture fixture, ITestOutputHelper output) : base(fixture, output)
+    public DayOfWeekTypeTests(Host host) : base(host)
     {
     }
 
-    [Fact]
+    [Test]
     public void Default()
     {
 
