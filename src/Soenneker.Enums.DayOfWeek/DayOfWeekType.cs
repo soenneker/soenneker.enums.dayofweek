@@ -4,38 +4,38 @@ using Soenneker.Attributes.PublicOpenApiObject;
 namespace Soenneker.Enums.DayOfWeek;
 
 /// <summary>
-/// An enumerator for describing the day of the week (Mon, Tues, ..)
+/// Identifies a named day in the seven-day calendar week.
 /// </summary>
 [PublicOpenApiObject]
 [EnumValue<string>]
 public sealed partial class DayOfWeekType
 {
     /// <summary>
-    /// The sunday.
+    /// Sunday.
     /// </summary>
     public static readonly DayOfWeekType Sunday = new(nameof(Sunday));
     /// <summary>
-    /// The monday.
+    /// Monday.
     /// </summary>
     public static readonly DayOfWeekType Monday = new(nameof(Monday));
     /// <summary>
-    /// The tuesday.
+    /// Tuesday.
     /// </summary>
     public static readonly DayOfWeekType Tuesday = new(nameof(Tuesday));
     /// <summary>
-    /// The wednesday.
+    /// Wednesday.
     /// </summary>
     public static readonly DayOfWeekType Wednesday = new(nameof(Wednesday));
     /// <summary>
-    /// The thursday.
+    /// Thursday.
     /// </summary>
     public static readonly DayOfWeekType Thursday = new(nameof(Thursday));
     /// <summary>
-    /// The friday.
+    /// Friday.
     /// </summary>
     public static readonly DayOfWeekType Friday = new(nameof(Friday));
     /// <summary>
-    /// The saturday.
+    /// Saturday.
     /// </summary>
     public static readonly DayOfWeekType Saturday = new(nameof(Saturday));
 }
