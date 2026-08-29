@@ -3,11 +3,16 @@
 [![](https://img.shields.io/nuget/dt/Soenneker.Enums.DayOfWeek.svg?style=for-the-badge)](https://www.nuget.org/packages/Soenneker.Enums.DayOfWeek/)
 [![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.enums.dayofweek/codeql.yml?label=CodeQL&style=for-the-badge)](https://github.com/soenneker/soenneker.enums.dayofweek/actions/workflows/codeql.yml)
 
-# ![](https://user-images.githubusercontent.com/4441470/224455560-91ed3ee7-f510-4041-a8d2-3fc093025112.png) Soenneker.Enums.DayOfWeek
-### An enumerator for describing the day of the week (Mon, Tues, ..)
+# Soenneker.Enums.DayOfWeek
 
-## Installation
+Identifies a named day in the seven-day calendar week.
 
-```
+## Install
+
+```bash
 dotnet add package Soenneker.Enums.DayOfWeek
 ```
+
+## What you get
+
+- `DayOfWeekType` — Identifies a named day in the seven-day calendar week.
